@@ -1,0 +1,190 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header{
+  height: 150px;
+}
+
+.header-left{
+  float:left;
+  width: 150px;
+  height: 150px;
+  background-color: #FDD700;
+}
+
+.header-right{
+
+}
+
+.top-wrapper{
+  background-image: url(image/top.png);
+  background-size: cover;
+  padding: 200px 0 100px 50px;
+  color: #FFF;
+  height:630px;
+}
+
+.top-wrapper h1{
+  font-size: 96px;
+}
+
+.top-wrapper p{
+  font-size: 32px;
+}
+
+.heading{
+  padding: 10px 0;
+  margin: 100px 0;
+  text-align: center;
+}
+
+.heading h2{
+  border-bottom:2px solid #FDD700;
+  font-size: 40px;
+  margin: 0 350px;
+}
+
+.concept{
+  margin: 100px 0;
+}
+
+.concept-main{
+}
+
+.concept-left{
+  float: left;
+  width: 40%;
+  text-align: center;
+}
+
+.concept-right{
+  float: left;
+  width:60%;
+}
+
+.concept-right h1{
+  font-size: 64px;
+  font-weight: normal;
+  letter-spacing: 20px;
+}
+
+.vision-main{
+}
+
+.vision-text{
+  text-align: center;
+  width: 400px;
+  height: 400px;
+  margin: auto;
+  display:table;
+}
+
+.vision-text-left{
+}
+
+.vision-text-right{
+}
+
+.vision-text h3{
+  font-weight: normal;
+  font-size: 64px;
+  display: table-cell;
+  vertical-align: middle;
+  border-radius: 50%;
+  background-color: #FEF4D9;
+}
+
+.vision-left{
+  float: left;
+  width:50%;
+}
+
+.vision-right{
+  float: left;
+  width: 50%;
+}
+
+.project{
+  padding: 0 50px;
+  background-color: #FEF4D9;
+}
+
+.project-image{
+  float: left;
+  width: 40%;
+  height: 100%;
+  padding-top: 150px;
+}
+
+.project-text{
+  float:left;
+  width:60%;
+  height: 100%;
+  padding: 20px;
+}
+
+.project-text h3{
+  font-size: 32px;
+}
+
+.btn{
+  float: right;
+  margin: 20px 100px 0 0;
+  padding:10px 20px;
+  border-radius: 50px;
+  background-color: #FDD700;
+}
+
+.btn a{
+  text-align: center;
+  color: #FFF;
+}
+
+.project-image img{
+  height: 400px;
+}
+
+.project-BY{
+  height: 700px;
+}
+
+.project-V{
+  height: 700px;
+}
+
+.project-title h2{
+  font-size: 64px;
+  font-weight: normal;
+  width: 400px;
+  height: 100px;
+  text-align: center;
+  border-radius: 40px;
+  background-color: #FFF;
+  color: #FDD700;
+}
+
+footer{
+  height: 1160px;
+  background-color: #D9D9D9;
+}
