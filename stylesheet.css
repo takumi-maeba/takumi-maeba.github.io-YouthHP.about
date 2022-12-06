@@ -125,6 +125,10 @@ header{
   width: 50%;
 }
 
+.projects{
+  margin-bottom: 100px;
+}
+
 .project{
   padding: 0 50px;
   background-color: #FEF4D9;
